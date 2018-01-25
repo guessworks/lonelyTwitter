@@ -47,5 +47,8 @@ public abstract class Tweet implements Tweeable{
 
     public abstract boolean isImportant();
 
-
+    @Override
+    public String toString(){
+        return message;
+    }
 }
