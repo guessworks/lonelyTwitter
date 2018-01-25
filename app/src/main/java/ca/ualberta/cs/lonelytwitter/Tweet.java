@@ -10,7 +10,7 @@ public abstract class Tweet implements Tweeable{
 
     private String message;
     private Date date;
-    private String mood;
+    private currentMood mood;
 
     Tweet() {
         //default constructor
@@ -47,7 +47,5 @@ public abstract class Tweet implements Tweeable{
 
     public abstract boolean isImportant();
 
-    public void setMood(String mood){
-        this.mood = mood;
-    }
+
 }
